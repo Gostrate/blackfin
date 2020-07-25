@@ -1,7 +1,9 @@
 <?php 
-switch($_GET("view")){
+
+ini_set('display_errors','on');  
+switch($_GET["view"]){
     case "annoucement":
-    $json=[
+    $json='[
         {
           "announcementType": "活動",
           "announcemntTitle": "公告標題",
@@ -20,11 +22,9 @@ switch($_GET("view")){
           "announcementText": "公告內文",
           "announcementTime": "公告時間"
         }
-      ]
+      ]';
         echo $json;
     break;
 }
-
-
 
 ?>
