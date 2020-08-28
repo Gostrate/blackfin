@@ -24,8 +24,8 @@ class GlobalData
             // $this->host = "localhost";
             // $this->dbuser = "root";
             // $this->pwd = "ma5tgb6yhntest";
-            $this->host = "34.80.56.1";
-            $this->dbuser = "gostrte";
+            $this->host = "localhost:3306";
+            $this->dbuser = "gostrate5";
             $this->pwd = "Lbj1868414";
             $this->dbname="mytest";
 

@@ -19,11 +19,12 @@ if (isset($_GET["view"])) {
       switch ($_GET["type"]) {
         case "post":
           //新增公告_貼子   公告、優惠、活動
-          $input_arr = json_decode($funcPack->ccgetfrominput(), 1);
-          print_r($input_arr);
+          $input_arr = json_decode($funcPack->ccgetfrominput(), true);
+          // print_r($input_arr);
+          // echo($input_arr["announcementType"]);
           // print_r($input_arr);
           if ($input_arr["announcementType"] != "公告" && $input_arr["announcementType"] != "優惠" && $input_arr["announcementType"] != "活動") {
-            $funcPack->printWord("input_error:Without this type: " . __LINE__);
+            $funcPack->printWord("input_error: Without this type: " . __LINE__);
           }
           // $funcPack->printWord( $input_arr["announcementStartTime"]);
 
@@ -33,7 +34,8 @@ if (isset($_GET["view"])) {
           // echo $sql;
           $responseArr = $funcPack->postData($sql);
           // $funcPack->printWord($responseArr);
-          $json='{"isSucess":"OK"}';
+          echo '{"isSucess":"OK"}';
+
           break;
         case "get":
           $json = '[
