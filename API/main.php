@@ -12,9 +12,7 @@ ini_set('display_errors', '1');
 error_reporting(E_ALL);
 require 'autoload.php';
 $funcPack = new Plugins\FuncPack();
-
-
-
+//test
 if (isset($_GET["view"])) {
   switch ($_GET["view"]) {
     case "annoucement":

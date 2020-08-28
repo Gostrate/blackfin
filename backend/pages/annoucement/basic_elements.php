@@ -497,6 +497,7 @@ $url = "http://localhost:8888/BlackFin/API/main.php?";
   <script>
     //5s
 
+    //test
     $(document).ready(function() {
       $("#dtStartBox").DateTimePicker();
       $("#dtEndBox").DateTimePicker();
