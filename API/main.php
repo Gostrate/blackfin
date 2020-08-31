@@ -41,21 +41,57 @@ if (isset($_GET["view"])) {
           $json = '[
             {
               "announcementType": "活動",
-              "announcementTitle": "公告標題",
-              "announcementText": "公告內文",
-              "announcementTime": "公告時間"
+              "announcementTitle": "夏日水槍節",
+              "announcementText": "2020 年最消暑的夏季活動來了！一年一度的新村水槍節即將在今年7 / 6 - 7 / 7舉辦，除了最讓人期待的水槍大戰之外，還有泡泡攻勢、DJ表演！快加入首爾年輕人潮流，在封街的市中心，用水槍消除煩悶又惱人的熱氣吧！",
+              "announcementTime": "2020-08-19 16:53"
+            },
+            {
+              "announcementType": "活動",
+              "announcementTitle": "今夏天體營",
+              "announcementText": "2020 年最消暑的夏季活動來了！一年一度的新村水槍節即將在今年8 / 1 - 8 / 5舉辦，除了最讓人期待的天體大戰之外，還有泡泡攻勢、DJ表演！快加入首爾年輕人潮流，在封街的市中心，用水槍消除煩悶又惱人的熱氣吧！",
+              "announcementTime": "2020-08-19 16:53"
+            },
+            {
+              "announcementType": "活動",
+              "announcementTitle": "蘭嶼烤肉趴",
+              "announcementText": "2020 年最消暑的夏季活動來了！一年一度的新村水槍節即將在今年7 / 6 - 7 / 7舉辦，除了最讓人期待的烤肉活動之外，還有泡泡攻勢、DJ表演！快加入首爾年輕人潮流，在封街的市中心，用水槍消除煩悶又惱人的熱氣吧！",
+              "announcementTime": "2020-08-11 16:53"
             },
             {
               "announcementType": "優惠",
-              "announcementTitle": "公告標題",
-              "announcementText": "公告內文",
-              "announcementTime": "公告時間"
+              "announcementTitle": "夏日瘋搶",
+              "announcementText": "即刻起，使用BOOKING.COM預訂房間，即享15%回饋金，數量有限!",
+              "announcementTime": "2020-08-16 16:53"
+            },
+            {
+              "announcementType": "優惠",
+              "announcementTitle": "黑鰭周年慶",
+              "announcementText": "歡慶黑鰭2周年，即刻起，使用BOOKING.COM預訂房間，即享20%折扣，數量有限!",
+              "announcementTime": "2020-08-17 16:53"
+            },
+            {
+              "announcementType": "優惠",
+              "announcementTitle": "夏日狂歡",
+              "announcementText": "8 / 2 - 8 / 5 ，住宿享免費潛水，數量有限!",
+              "announcementTime": "2020-08-13 16:53"
             },
             {
               "announcementType": "公告",
-              "announcementTitle": "公告標題",
-              "announcementText": "公告內文",
-              "announcementTime": "公告時間"
+              "announcementTitle": "暫停營業",
+              "announcementText": "因龍五颱風來襲，今日暫停營業，請大家小心注意安全，黑鰭飲冰宿關心您。",
+              "announcementTime": "2020-08-18 16:53"
+            },
+            {
+              "announcementType": "公告",
+              "announcementTitle": "暫停營業",
+              "announcementText": "因柳丁颱風來襲，今日暫停營業，請大家小心注意安全，黑鰭飲冰宿關心您。",
+              "announcementTime": "2020-08-20 16:53"
+            },
+            {
+              "announcementType": "公告",
+              "announcementTitle": "暫停營業",
+              "announcementText": "因小民颱風來襲，今日暫停營業，請大家小心注意安全，黑鰭飲冰宿關心您。",
+              "announcementTime": "2020-08-21 16:53"
             }
           ]';
           echo $json;
